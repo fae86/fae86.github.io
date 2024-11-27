@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.MyWizardFAE86" name="My Wizard FAE 86" version="1.0.1" provider-name="FAE 86">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Simple Wizard es una plantilla liviana para instalar compilaciones en Kodi. Tiene algo de código de Aftermath Wizard de Surfacingx. Skin Switch de OpenELEQ. Código base de BYB. Créditos a ellos y a todos los demás que contribuyeron. Por favor, informe cualquier error a @slamious en Telegram/Twitter.</summary>
+		<description lang="en_GB">Kodi Wizard</description>
+		<disclaimer lang="en_GB">Este Addon no contiene contenido</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum></forum>
+		<website></website> 
+		<email></email>
+		<source></source>
+		<news>3.0.2 - Se agregó la función de prueba de velocidad. Corrección de errores. 3.0.0 - Se agregó la función de copia de seguridad y restauración para las cuentas de trakt/debrid. Se actualizó la sección de autorización de debrid/trakt. Se agregó la restauración de la configuración de la interfaz gráfica de usuario y del aspecto. Se actualizaron las configuraciones de Advancedsettings. Se actualizó el diseño del asistente. Se agregaron opciones de color editadas por el usuario para los menús. Se corrigió el error que provocaba que el asistente se sobrescribiera durante las instalaciones de compilación. Se editó el inicio desde cero para mantener el asistente y las dependencias. Se eliminó el diálogo de doble ok durante las instalaciones de compilación. Se realizaron numerosas correcciones menores en todo el juego.
+		</news>
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner></banner>
+				<clearlogo></clearlogo>
+				<screenshot></screenshot>
+		</assets>
+			<dir minversion="21.1.0" maxversion="21.1.9">
+			<info compressed="false">https://raw.githubusercontent.com/fae86/WizardFae86/main/omega/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/fae86/WizardFae86/main/omega/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/fae86/WizardFae86/main/omega/zips/</datadir>
+		</dir>
+	</extension>
+</addon>
+
