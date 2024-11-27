@@ -1,0 +1,73 @@
+3.0.2 - Se agregó prueba de velocidad, varias correcciones de errores.
+
+    3.0.0 - Se añadió funcionalidad de copia de seguridad/restauración para cuentas de trakt/debrid. Se actualizó la sección de autorización de debrid/trakt. Se añadió la restauración de configuraciones de gui/skin. Se actualizaron las configuraciones de Advancedsettings. Se actualizaron los gráficos del asistente. Se añadieron opciones de colores editables por el usuario para los menús. Se corrigió el problema del asistente sobrescribiéndose durante la instalación de builds. Se editó el "fresh start" para conservar el asistente/dependencias. Se eliminó el doble diálogo de ok durante la instalación de builds. Numerosas otras pequeñas correcciones.
+
+    2.1.8 - Se añadió visor de logs a mantenimiento.
+
+    2.1.7 - Se solucionó el problema con las instalaciones binarias fallidas. Se actualizaron las configuraciones de Advancedsettings. Se añadió notificación al inicio de las copias de seguridad.
+
+    2.1.6.1 - Se corrigió error de permisos en dispositivos Windows. Se añadió la opción de conservar la lista de binarios cuando las instalaciones fallan.
+
+    2.1.6 - Se añadió la instalación de addons binarios a la instalación de builds. Se corrigió el problema con los zips de Dropbox que no mostraban la longitud del archivo. Se solucionó un error en el inicio cuando las URL del archivo de build o notificación no son válidas.
+
+    2.1.5 - Se añadió la opción de cancelar la solicitud de actualización de build y sin build.
+
+    2.1.4 - Pequeña corrección a la lista blanca (Whitelist).
+
+    2.1.3 - Se añadió un mensaje que abre el menú de builds cuando hay una actualización o un nuevo build instalado. Se añadió un acceso directo para "Cerrar Forzadamente". Se reestructuró un poco el addon. Ahora hay un archivo "uservar.py" en la raíz del addon para las variables de usuario.
+
+    2.1.1 - Se añadió una ruta personalizada para las copias de seguridad.
+
+    2.1.0 - Se añadió funcionalidad de copia de seguridad/restauración.
+
+    2.0.7 - Se añadió lista blanca (Whitelist), correcciones a URLs de Dropbox.
+
+    2.0.5 - Se añadió la autorización de Debrid, se añadieron cadenas de idioma a la mayoría de las etiquetas, limpieza de código.
+
+    2.0.3 - Se añadió vista previa de video.
+
+    2.0.2 - Se solucionó un problema con la restauración de copias de seguridad.
+
+    2.0.0 - Cambios importantes en la estructura del addon. Se asignó la mayoría del código a módulos. Se añadieron nuevos módulos. Se añadió soporte para enlaces de Dropbox. Se corrigió la cancelación de descarga.
+
+    1.1.3 - Se corrigió el problema de guardar elementos cuando no se seleccionaban.
+
+    1.1.2 - Se rehizo el archivo service.py, pequeñas correcciones de errores.
+
+    1.1.1 - Se solucionó un problema con el verificador de actualizaciones.
+
+    1.1.0 - Se corrigió la ruta de Resolveurl en los datos guardados.
+
+    1.0.9 - Se añadieron configuraciones al menú principal.
+
+    1.0.8 - Se corrigió el porcentaje durante la descarga del build.
+
+    1.0.7 - Se añadió la opción de enlazar a otro archivo XML o JSON. Esto es útil para equipos o wizards comunitarios, ya que cada creador de builds puede tener su propio XML. También se cambió el formato del XML de builds. Consulte builds_newformat.xml en la carpeta de recursos. El formato antiguo seguirá funcionando, pero si el usuario tiene una versión más antigua del wizard, solo verá el número de versión como nombre. Deberán actualizar para solucionar esto.
+
+    1.0.6 - Se añadió el cuadro de notificaciones. Un agradecimiento especial a Blue por el arte y la ayuda con el diseño.
+
+    1.0.5 - Correcciones de errores.
+
+    1.0.3 - Se añadió progreso de descarga en la instalación de builds.
+
+    1.0.2 - Se añadió la opción de codificar la variable de archivo de build en una cadena base64.
+
+    1.0.1 - Se añadió la opción de usar JSON para el archivo de build.
+
+    1.0.0 - Limpieza básica. Listo para el lanzamiento oficial.
+
+    0.0.9 - Se añadió menú de guardar.
+
+    0.0.8 - Correcciones de errores, el "Fresh Start" debería ser más rápido ahora.
+
+    0.0.7 - Se añadieron ajustes avanzados a mantenimiento.
+
+    0.0.6 - Se añadió "Clear Packages", el primero de la sección de mantenimiento.
+
+    0.0.5 - Correcciones de errores.
+
+    0.0.4 - Se añadió la habilitación de addons deshabilitados al primer inicio de build. Se añadió la actualización de repositorios al primer inicio de build.
+
+    0.0.3 - Se añadió mensaje de notificación cuando haya una nueva versión del build instalado.
+
+    0.0.2 - Lanzamiento inicial.
