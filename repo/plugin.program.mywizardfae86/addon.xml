@@ -28,11 +28,6 @@
 				<clearlogo></clearlogo>
 				<screenshot></screenshot>
 		</assets>
-			<dir minversion="21.1.0" maxversion="21.1.9">
-			<info compressed="false">https://raw.githubusercontent.com/fae86/WizardFae86/main/omega/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/fae86/WizardFae86/main/omega/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/fae86/WizardFae86/main/omega/zips/</datadir>
-		</dir>
 	</extension>
 </addon>
 
