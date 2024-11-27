@@ -34,25 +34,6 @@
 			<datadir zip="true">https://raw.githubusercontent.com/fae86/WizardFae86/main/omega/zips/</datadir>
 		</dir>
 	</extension>
-</addon><addon id="plugin.program.wizardfae86" name="My Wizard FAE86" version="1.0.0" provider-name="fae86">
-    <extension point="xbmc.addon.repository" name="Example Repository">
-        <dir>
-    <info compressed="false">https://raw.githubusercontent.com/fae86/WizardFae86/main/repo/zips/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/fae86/WizardFae86/main/repo/zips/addons.xml.md5</checksum>
-    <datadir zip="true">https://raw.githubusercontent.com/fae86/WizardFae86/main/repo/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>My Wizard FAE86</summary>
-        <description>Un wizard completo para Kodi con herramientas de mantenimiento, ajustes avanzados y opciones de instalación para múltiples dispositivos.</description>
-
-        <disclaimer />
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon><addon id="repository.wizardfae86" name="My Wizard FAE86" version="1.0.0" provider-name="fae86">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
