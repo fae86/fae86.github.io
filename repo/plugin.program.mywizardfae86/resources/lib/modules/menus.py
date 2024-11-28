@@ -116,10 +116,7 @@ def submenu_maintenance():
     add_dir(COLOR2('Test Velocidad'), '', 27, 
             os.path.join(icon_path, "prueba_velocidad.png"), 
             addon_fanart, COLOR2('Prueba de Velocidad'), isFolder=False)
-    
-    add_dir(COLOR2('Ver Log'), '', 25, 
-            os.path.join(icon_path, "ver_log.png"), 
-            addon_fanart, COLOR2('Ver Log'), isFolder=False)
+
 
 def backup_restore():
     xbmcplugin.setPluginCategory(HANDLE, COLOR1('Copia de Seguridad/Restaurar'))
