@@ -116,7 +116,43 @@ def submenu_maintenance():
     add_dir(COLOR2('Test Velocidad'), '', 27, 
             os.path.join(icon_path, "prueba_velocidad.png"), 
             addon_fanart, COLOR2('Prueba de Velocidad'), isFolder=False)
+    
+    add_dir(COLOR2('Ver Log'), '', 25, 
+            os.path.join(icon_path, "ver_log.png"), 
+            addon_fanart, COLOR2('Ver Log'), isFolder=False)
 
+    add_dir(COLOR2('Copia de Seguridad/Restaurar Build'),'',12, 
+           os.path.join(icon_path, "backup_restore.png"),  # Icono específico
+           addon_fanart, COLOR2('Copia de Seguridad y Restaurar Build'))
+
+
+def backup_restore():
+    xbmcplugin.setPluginCategory(HANDLE, COLOR1('Copia de Seguridad/Restaurar'))
+    
+    # Copia de Seguridad/Restaurar
+    add_dir(COLOR1('Copia de Seguridad/Restaurar Build'), '', '', 
+            os.path.join(icon_path, "backup_restore.png"),  # Ícono para Copia de Seguridad/Restaurar
+            addon_fanart, COLOR1('Copia de Seguridad/Restaurar'), isFolder=False)
+    
+    # Copia de Seguridad Build
+    add_dir(COLOR2('Copia de Seguridad Build'), '', 13, 
+            os.path.join(icon_path, "backup_build.png"),  # Ícono para Copia de Seguridad Build
+            addon_fanart, COLOR2('Copia de Seguridad Build'), isFolder=False)
+    
+    # Restaurar Copia de Seguridad
+    add_dir(COLOR2('Restaurar Copia de Seguridad'), '', 14, 
+            os.path.join(icon_path, "restore_backup.png"),  # Ícono para Restaurar Copia de Seguridad
+            addon_fanart, COLOR2('Restaurar Copia de Seguridad'), isFolder=False)
+    
+    # Cambiar Ubicación de la Carpeta de Backups
+    add_dir(COLOR2('Cambiar Ubicación de la Carpeta de Backups'), '', 16, 
+            os.path.join(icon_path, "change_location.png"),  # Ícono para Cambiar Ubicación de Backup
+            addon_fanart, COLOR2('Cambiar la ubicación donde se almacenarán y accederán los backups.'), isFolder=False)
+    
+    # Restablecer Ubicación de Backups
+    add_dir(COLOR2('Restablecer Ubicación de Backups'), '', 17, 
+            os.path.join(icon_path, "reset_location.png"),  # Ícono para Restablecer Ubicación de Backup
+            addon_fanart, COLOR2('Restablecer la ubicación de los backups a su valor predeterminado.'), isFolder=False)
 
 def restore_gui_skin():
     # Restaurar Configuración de GUI
